@@ -13,7 +13,9 @@ $color-neon-green: #bef227;
 button,
 button:hover,
 button:focus {
-
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
 }
 
 // BASE STYLES
@@ -64,7 +66,7 @@ button:focus {
   // ---------------------
 
   &__buttons {
-
+    margin-top: auto;
   }
 
     &__button {
