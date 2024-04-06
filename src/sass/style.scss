@@ -1,5 +1,6 @@
 // VARIABLES
 $color-neon-green: #bef227;
+$color-light-black: #1d2507;
 
 // RESET
 *,
@@ -44,13 +45,24 @@ button:focus {
   align-items: center;
 
   &__title {
-
+    opacity: 0.6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 200px;
+    text-align: center;
+    line-height: 0.9;
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 60px;
   }
 
   // ---------------------
 
   &__value {
-
+    color: $color-light-black;
+    font-size: 200px;
+    font-weight: 600;
+    margin-top: 10px;
   }
 
   // ---------------------
