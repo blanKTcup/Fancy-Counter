@@ -2,6 +2,8 @@
 $color-neon-green: #bef227;
 $color-light-black: #1d2507;
 
+$ts: all 0.4s;
+
 // RESET
 *,
 *::before,
@@ -14,8 +16,7 @@ $color-light-black: #1d2507;
 button,
 button:hover,
 button:focus {
-  border: none;
-  background-color: inherit;
+  all: unset;
   cursor: pointer;
 }
 
@@ -72,7 +73,14 @@ button:focus {
   }
 
   &__reset-icon {
+    opacity: 0.3;
+    font-size: 35px;
+    transition: $ts;
 
+    &:hover,
+    &:focus {
+      opacity: 0.5;
+    }
   }
 
   // ---------------------
