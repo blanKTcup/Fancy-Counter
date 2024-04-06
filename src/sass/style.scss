@@ -132,3 +132,21 @@ button {
         }
       }
 }
+
+// MEDIA QUERIES
+@media (max-width: 680px) or (max-height: 730px) {
+  .counter {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+
+    &__title {
+      margin-top: 100px;
+    }
+
+    &__buttons {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+}
