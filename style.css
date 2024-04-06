@@ -1,0 +1,25 @@
+/* RESET */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASE STYLES */
+.counter {
+  font-family: 'Inter', sans-serif;
+}
+
+/* STYLES */
+.counter__title {
+
+}
+
+.counter__value {
+
+}
+
+.counter__reset-button
