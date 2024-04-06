@@ -13,9 +13,7 @@ $ts: all 0.4s;
   box-sizing: border-box;
 }
 
-button,
-button:hover,
-button:focus {
+button {
   all: unset;
   cursor: pointer;
 }
@@ -90,17 +88,25 @@ button:focus {
     background-color: $color-light-black;
     height: 116px;
     width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 
     display: flex;
-    justify-content: space-between;
   }
 
     &__button {
+      flex: 1;
+      
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
       transition: $ts;
 
       &:hover,
       &:focus {
-
+        background-color: #212b06;
       }
 
       &--decrease {
@@ -108,7 +114,7 @@ button:focus {
       }
 
       &--increase {
-
+        border-left: 1px solid rgba(189, 254, 0, 0.15);
       }
     }
 
