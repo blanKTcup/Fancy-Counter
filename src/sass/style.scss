@@ -1,5 +1,5 @@
 // VARIABLES
-
+$color-neon-green: #bef227;
 
 // RESET
 *,
@@ -22,18 +22,36 @@ button:focus {
   height: 100vh;
   width: 100vw;
   background-image: radial-gradient(ellipse, #385300, #212900);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+// STYLES
+
 .counter {
- 
+  background-color: $color-neon-green;
+  width: 476px;
+  height: 615px;
+  border-radius: 12px;
+  box-shadow: 0 25px 121px rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   &__title {
 
   }
 
+  // ---------------------
+
   &__value {
 
   }
+
+  // ---------------------
 
   &__reset-button {
 
@@ -43,29 +61,31 @@ button:focus {
 
   }
 
-  &__buttons
+  // ---------------------
 
-  &__button {
+  &__buttons {
 
-    &--decrease {
-
-    }
-
-    &--increase {
-
-    }
   }
 
-  &__icon {
+    &__button {
 
-    &--minus {
+      &--decrease {
 
+      }
+
+      &--increase {
+
+      }
     }
 
-    &--plus {
+      &__icon {
 
-    }
-  }
+        &--minus {
+
+        }
+
+        &--plus {
+
+        }
+      }
 }
-
-// STYLES
