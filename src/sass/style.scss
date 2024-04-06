@@ -87,9 +87,21 @@ button:focus {
 
   &__buttons {
     margin-top: auto;
+    background-color: $color-light-black;
+    height: 116px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
   }
 
     &__button {
+      transition: $ts;
+
+      &:hover,
+      &:focus {
+
+      }
 
       &--decrease {
 
@@ -101,6 +113,9 @@ button:focus {
     }
 
       &__icon {
+        color: $color-neon-green;
+        opacity: 0.9;
+        font-size: 40px;
 
         &--minus {
 
