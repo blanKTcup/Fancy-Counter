@@ -24,8 +24,8 @@ This is a solution to the [Fancy Counter](https://main--kt-fancy-counter.netlify
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/blanKTcup/Fancy-Counter)
-- Live Site URL: [Add live site URL here](https://main--kt-fancy-counter.netlify.app/)
+- Solution URL: [Github repo link](https://github.com/blanKTcup/Fancy-Counter)
+- Live Site URL: [Live site link](https://main--kt-fancy-counter.netlify.app/)
 
 ## My process
 
