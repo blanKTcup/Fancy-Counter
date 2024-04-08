@@ -1,6 +1,6 @@
-# Course/Tutorial - Name of project/solution
+# ByteGrad JS Course - Fancy Counter
 
-This is a solution to the [Name of project/assignment/challenge](https://project-origin-link).
+This is a solution to the [Fancy Counter](https://main--kt-fancy-counter.netlify.app/).
 
 ## Table of contents
 
@@ -20,72 +20,34 @@ This is a solution to the [Name of project/assignment/challenge](https://project
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
+![](./solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/blanKTcup/Fancy-Counter)
+- Live Site URL: [Add live site URL here](https://main--kt-fancy-counter.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- CSS Flexbox
+- SASS/SCSS
+- JS
 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
+In this project, I continued to learn a lot more about using npm scripts for sass. I managed to formulate my own json file that fully builds html, sass, and js smoothly. This project was meant to build upon my JS knowledge and it certainly did. I learned more about event listeners trying to implement keyboard functionality for the counter.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Still want to keep learning more about JS, best practices, how to be more efficient, less repetition, etc.
 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [ByteGrad JS Course](https://bytegrad.com/courses/professional-javascript) - This is the link to ByteGrad's JS course
 
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
