@@ -37,11 +37,24 @@ function incrementCounter() {
 
 increaseButtonEl.addEventListener('click', incrementCounter);
 
-resetButtonEl.addEventListener('click', function() {
+function resetButton() {
   counterValueEl.textContent = 0;
   counterEl.classList.remove('counter--limit');
   counterTitleEl.textContent = 'Fancy Counter';
   increaseButtonEl.disabled = false;
   decreaseButtonEl.disabled = false;
+}
+
+resetButtonEl.addEventListener('click', resetButton);
+
+node.addEventListener('keydown', function(event) {
+  const key = event.key; // "ArrowRight", "ArrowLeft", "ArrowUp", or "ArrowDown"
+  if (key == "Up") {
+    incrementCounter();
+  } else if (key == "Down") {
+    decrementCounter();
+  } else if (key == "r") {
+
+  }
 });
 
